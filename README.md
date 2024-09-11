@@ -42,7 +42,7 @@ git clone https://github.com/xgagandeep/Predictive-Maintenance-Model.git
 streamlit run model.py
 ```
 
-The Streamlit app provides an interactive interface where users can input machinery operational settings and sensor readings. The model will then output the predicted Remaining Useful Life (RUL) for the given inputs.
+The Streamlit app provides an interactive interface where users can input jet engine operational settings and sensor readings. The model will then output the predicted Remaining Useful Life (RUL) for the given inputs.
 
 ### 3. Input and Interact with the App:
 
@@ -54,14 +54,14 @@ The app provides a user-friendly way to interact with the predictive maintenance
 
 ## Dataset
 
-The dataset used for training and testing comes from NASA’s Prognostics Center of Excellence. The data consists of multiple time-series sensor readings and operational settings for machinery components.
+The dataset used for training and testing comes from NASA’s Prognostics Center of Excellence. The data consists of multiple time-series sensor readings and operational settings for jet engines components.
 
 ### Data Fields:
 
-- `unit`: Unique identifier for each machine.
-- `cycles`: Number of cycles the machine has undergone.
-- `op_setting1`, `op_setting2`, `op_setting3`: Operational settings of the machine.
-- `s1` to `s21`: Sensor readings from the machine.
+- `unit`: Unique identifier for each engine.
+- `cycles`: Number of cycles the engine has undergone.
+- `op_setting1`, `op_setting2`, `op_setting3`: Operational settings of the engine.
+- `s1` to `s21`: Sensor readings from the engine.
 - `rul`: Remaining Useful Life (calculated in preprocessing).
 
 ## Model Architecture
@@ -89,7 +89,7 @@ We developed an Artificial Neural Network (ANN) using Keras. The architecture is
 
 ## Usage
 
-Once the model is deployed, users can input operational settings and sensor readings, and the model will predict how many cycles the machine has left before it fails (RUL).
+Once the model is deployed, users can input operational settings and sensor readings, and the model will predict how many cycles the engine has left before it fails (RUL).
 
 ## Future Improvements
 
