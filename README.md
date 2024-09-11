@@ -1,7 +1,7 @@
 
 # Predictive Maintenance Model
 
-This repository contains a predictive maintenance solution developed as a team project. The project utilizes machine learning techniques to predict the Remaining Useful Life (RUL) of machinery components. The model is built using a neural network to process sensor data and operational settings from machinery, enabling predictive maintenance decisions.
+This repository contains a predictive maintenance solution developed as a team project. The project utilizes machine learning techniques to predict the Remaining Useful Life (RUL) of Jet Engines. The model is built using a neural network to process sensor data and operational settings from jet engines, enabling predictive maintenance decisions.
 
 ## Project Structure
 
